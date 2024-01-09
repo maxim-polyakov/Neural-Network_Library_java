@@ -5,49 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="436d4182-6ee8-455b-ae39-4625a443442b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/BayesianInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/ErrorCalculationMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/KernelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/MarketDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/NetworkPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/PNNKernelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/PNNOutputMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/RBFEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/RPROPType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/SVMType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/TemporalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/TimeUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/TrainingImplementationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/YInnovationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/YNeuronType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neural-Network_Library/Enumns/YParent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IBayesEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IBayesEstimator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IBayesSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IBayesSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IBayesianQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IBayesianQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICalculateScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICalculateScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICalculateTScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICalculateTScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICalculationCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICalculationCriteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICentroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICentroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICentroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICentroidFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IComputeHessian.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IComputeHessian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IContainsFlat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IContainsFlat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICrossover.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ICrossover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IDataSetCODEC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IDataSetCODEC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IEndTrainingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IEndTrainingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IEngineTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IEngineTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IErrorFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IErrorFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IExtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IExtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IExtractListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IExtractListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IGene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IGenerateID.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IGenerateID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IHasFixedLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IHasFixedLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IInnovation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IInnovation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IInnovationList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IInnovationList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IInputField.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IInputField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ILayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ILayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ILearningRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/ILearningRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLClustering.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLClustering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLComplexData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLComplexData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLDataPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLDataPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLEncodable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLEncodable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLError.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLRegression.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLRegression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLResettable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMLResettable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMarketLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/Interfaces/IMarketLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/AbstractClasses/AbstractPNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/AbstractClasses/AbstractPNN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/AbstractClasses/BasicExtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/AbstractClasses/BasicExtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural-Network_Library/AbstractClasses/BasicGAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Neural-Network_Library/AbstractClasses/BasicGAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="package-info" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -84,15 +62,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_opened_file_path": "D:/GitHub/Neural-Network_Library_java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Neural-Network_Library_java&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Enumns" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
